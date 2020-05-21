@@ -1,8 +1,3 @@
-'''
-Created on 21-May-2020
-
-@author: Toshinee Bhasin
-'''
 from PIL import ImageGrab, ImageOps
 import pyautogui
 from time import sleep
@@ -19,8 +14,6 @@ def restartGame():
     pyautogui.click(Cordinates.replayBtn)
     pyautogui.keyDown('down')
     
-#restartGame()
-
 def pressSpace():
     pyautogui.keyUp('down')
     pyautogui.keyDown('space')
@@ -29,10 +22,6 @@ def pressSpace():
     pyautogui.keyUp('space')
     pyautogui.keyDown('down')
     
-#restartGame()
-#sleep(1)
-#pressSpace()
-
 def imageGrab():
     box=(950,410,1040,430)   #box is the area where any obstacle is detected
     image= ImageGrab.grab(box)
@@ -45,10 +34,6 @@ def imageGrab():
     #now we print out the grayedscaled sum of all the colour values of each of pixel in the box
     print(a.sum())
     return a.sum()
-    
-#while True:
- #   imageGrab() 
-    
     
 def main():
     restartGame()
