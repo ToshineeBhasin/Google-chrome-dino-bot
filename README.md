@@ -1,4 +1,5 @@
 # Google-chrome-dino-bot
+In this google chrome dino game, a dinosour is their whom have to run through a path and he faces some obstacles, which he has to overcome.It runs automatically and jumps automatically when some problem occur.
 Some libraries used are:
 
 1. PIL : Python Imaging Library (PIL) is a free library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats.
